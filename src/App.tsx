@@ -25,7 +25,7 @@ function AppContent() {
   }
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/brightmo-web">
       <ScrollToTop />
       <Routes>
         <Route element={<MainLayout />}>

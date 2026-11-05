@@ -10,7 +10,7 @@ interface WhatsAppButtonProps {
 export default function WhatsAppButton({
   productName,
   businessCode,
-  phoneNumber = '1234567890',
+  phoneNumber = '+94743864343',
   className = '',
   selectedColor,
   inStock = true,

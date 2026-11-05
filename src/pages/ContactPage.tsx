@@ -19,7 +19,7 @@ export default function ContactPage() {
     const whatsappMessage = encodeURIComponent(
       `Hello Brightmo Concierge! I'm ${formData.name}.\n\nInquiry Subject: ${formData.subject}\n\nMessage: ${formData.message}\n\nContact: ${formData.email} | ${formData.phone}`
     );
-    window.open(`https://wa.me/1234567890?text=${whatsappMessage}`, '_blank');
+    window.open(`https://wa.me/+94743864343?text=${whatsappMessage}`, '_blank');
   };
 
   return (
@@ -65,7 +65,7 @@ export default function ContactPage() {
               {/* Contact Cards */}
               <div className="space-y-3 sm:space-y-4">
                 <a
-                  href="https://wa.me/1234567890"
+                  href="https://wa.me/+94743864343"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-start gap-3.5 sm:gap-4 p-4 sm:p-5 rounded-xl bg-white border border-neutral-200 shadow-sm hover:border-emerald-500/80 hover:shadow-md transition-all group active:scale-[0.99]"
@@ -143,7 +143,7 @@ export default function ContactPage() {
                       required
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                      placeholder="+1 (555) 000-0000"
+                      placeholder=""
                       className="w-full px-3.5 sm:px-4 py-3 rounded-xl border border-neutral-300 focus:border-royal-700 focus:ring-2 focus:ring-royal-100 font-body text-base sm:text-sm outline-none transition-all"
                     />
                   </div>

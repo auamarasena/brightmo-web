@@ -65,7 +65,7 @@ export default function HomePage() {
                   Explore Collections
                 </Link>
                 <a
-                  href="https://wa.me/1234567890"
+                  href="https://wa.me/+94743864343"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2.5 px-6 sm:px-7 py-3.5 sm:py-4 rounded-xl bg-white/5 hover:bg-white/10 text-white border border-white/20 backdrop-blur-md font-body font-semibold text-xs sm:text-sm transition-all duration-300 hover:border-gold-400/60"
@@ -313,7 +313,7 @@ export default function HomePage() {
 
           <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4 max-w-md sm:max-w-none mx-auto">
             <a
-              href="https://wa.me/1234567890"
+              href="https://wa.me/+94743864343"
               target="_blank"
               rel="noopener noreferrer"
               className="gold-shine-button bg-gradient-to-r from-emerald-600 to-emerald-500 hover:from-emerald-500 hover:to-emerald-600 text-white px-6 sm:px-8 py-3.5 sm:py-4 rounded-xl font-body font-bold text-xs sm:text-sm tracking-wide transition-all duration-300 shadow-xl shadow-emerald-600/25 flex items-center justify-center gap-2.5 hover:scale-[1.02] active:scale-[0.98]"
